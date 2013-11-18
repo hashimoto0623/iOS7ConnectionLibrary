@@ -1,0 +1,537 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B19A2E3F183A36640033C3EE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B19A2E3E183A36640033C3EE /* Foundation.framework */; };
+		B19A2E41183A36640033C3EE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B19A2E40183A36640033C3EE /* CoreGraphics.framework */; };
+		B19A2E43183A36640033C3EE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B19A2E42183A36640033C3EE /* UIKit.framework */; };
+		B19A2E49183A36640033C3EE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B19A2E47183A36640033C3EE /* InfoPlist.strings */; };
+		B19A2E4B183A36640033C3EE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B19A2E4A183A36640033C3EE /* main.m */; };
+		B19A2E4F183A36640033C3EE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B19A2E4E183A36640033C3EE /* AppDelegate.m */; };
+		B19A2E52183A36640033C3EE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B19A2E50183A36640033C3EE /* Main.storyboard */; };
+		B19A2E55183A36640033C3EE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B19A2E54183A36640033C3EE /* ViewController.m */; };
+		B19A2E57183A36640033C3EE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B19A2E56183A36640033C3EE /* Images.xcassets */; };
+		B19A2E5E183A36640033C3EE /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B19A2E5D183A36640033C3EE /* XCTest.framework */; };
+		B19A2E5F183A36640033C3EE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B19A2E3E183A36640033C3EE /* Foundation.framework */; };
+		B19A2E60183A36640033C3EE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B19A2E42183A36640033C3EE /* UIKit.framework */; };
+		B19A2E68183A36640033C3EE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B19A2E66183A36640033C3EE /* InfoPlist.strings */; };
+		B19A2E6A183A36640033C3EE /* iOS7ConnectionLibraryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B19A2E69183A36640033C3EE /* iOS7ConnectionLibraryTests.m */; };
+		B19A2E83183A36990033C3EE /* SHHTTPConnectionChainManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B19A2E77183A36990033C3EE /* SHHTTPConnectionChainManager.m */; };
+		B19A2E84183A36990033C3EE /* SHHTTPConnectionChainQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = B19A2E79183A36990033C3EE /* SHHTTPConnectionChainQueue.m */; };
+		B19A2E85183A36990033C3EE /* SHHTTPConnectionNotificationCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = B19A2E7B183A36990033C3EE /* SHHTTPConnectionNotificationCenter.m */; };
+		B19A2E86183A36990033C3EE /* SHHTTPConnectionSessionDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B19A2E7D183A36990033C3EE /* SHHTTPConnectionSessionDelegate.m */; };
+		B19A2E87183A36990033C3EE /* SHHTTPConnectionSync.m in Sources */ = {isa = PBXBuildFile; fileRef = B19A2E7F183A36990033C3EE /* SHHTTPConnectionSync.m */; };
+		B19A2E88183A36990033C3EE /* SHHTTPConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = B19A2E81183A36990033C3EE /* SHHTTPConnection.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B19A2E61183A36640033C3EE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B19A2E33183A36640033C3EE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B19A2E3A183A36640033C3EE;
+			remoteInfo = iOS7ConnectionLibrary;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B19A2E3B183A36640033C3EE /* iOS7ConnectionLibrary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOS7ConnectionLibrary.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B19A2E3E183A36640033C3EE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B19A2E40183A36640033C3EE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B19A2E42183A36640033C3EE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B19A2E46183A36640033C3EE /* iOS7ConnectionLibrary-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iOS7ConnectionLibrary-Info.plist"; sourceTree = "<group>"; };
+		B19A2E48183A36640033C3EE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B19A2E4A183A36640033C3EE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B19A2E4C183A36640033C3EE /* iOS7ConnectionLibrary-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iOS7ConnectionLibrary-Prefix.pch"; sourceTree = "<group>"; };
+		B19A2E4D183A36640033C3EE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B19A2E4E183A36640033C3EE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B19A2E51183A36640033C3EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B19A2E53183A36640033C3EE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B19A2E54183A36640033C3EE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B19A2E56183A36640033C3EE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B19A2E5C183A36640033C3EE /* iOS7ConnectionLibraryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOS7ConnectionLibraryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B19A2E5D183A36640033C3EE /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		B19A2E65183A36640033C3EE /* iOS7ConnectionLibraryTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iOS7ConnectionLibraryTests-Info.plist"; sourceTree = "<group>"; };
+		B19A2E67183A36640033C3EE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B19A2E69183A36640033C3EE /* iOS7ConnectionLibraryTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOS7ConnectionLibraryTests.m; sourceTree = "<group>"; };
+		B19A2E76183A36990033C3EE /* SHHTTPConnectionChainManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHHTTPConnectionChainManager.h; sourceTree = "<group>"; };
+		B19A2E77183A36990033C3EE /* SHHTTPConnectionChainManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHHTTPConnectionChainManager.m; sourceTree = "<group>"; };
+		B19A2E78183A36990033C3EE /* SHHTTPConnectionChainQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHHTTPConnectionChainQueue.h; sourceTree = "<group>"; };
+		B19A2E79183A36990033C3EE /* SHHTTPConnectionChainQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHHTTPConnectionChainQueue.m; sourceTree = "<group>"; };
+		B19A2E7A183A36990033C3EE /* SHHTTPConnectionNotificationCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHHTTPConnectionNotificationCenter.h; sourceTree = "<group>"; };
+		B19A2E7B183A36990033C3EE /* SHHTTPConnectionNotificationCenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHHTTPConnectionNotificationCenter.m; sourceTree = "<group>"; };
+		B19A2E7C183A36990033C3EE /* SHHTTPConnectionSessionDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHHTTPConnectionSessionDelegate.h; sourceTree = "<group>"; };
+		B19A2E7D183A36990033C3EE /* SHHTTPConnectionSessionDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHHTTPConnectionSessionDelegate.m; sourceTree = "<group>"; };
+		B19A2E7E183A36990033C3EE /* SHHTTPConnectionSync.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHHTTPConnectionSync.h; sourceTree = "<group>"; };
+		B19A2E7F183A36990033C3EE /* SHHTTPConnectionSync.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHHTTPConnectionSync.m; sourceTree = "<group>"; };
+		B19A2E80183A36990033C3EE /* SHHTTPConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHHTTPConnection.h; sourceTree = "<group>"; };
+		B19A2E81183A36990033C3EE /* SHHTTPConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHHTTPConnection.m; sourceTree = "<group>"; };
+		B19A2E82183A36990033C3EE /* SHHTTPObserverConfigurations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHHTTPObserverConfigurations.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B19A2E38183A36640033C3EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B19A2E41183A36640033C3EE /* CoreGraphics.framework in Frameworks */,
+				B19A2E43183A36640033C3EE /* UIKit.framework in Frameworks */,
+				B19A2E3F183A36640033C3EE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B19A2E59183A36640033C3EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B19A2E5E183A36640033C3EE /* XCTest.framework in Frameworks */,
+				B19A2E60183A36640033C3EE /* UIKit.framework in Frameworks */,
+				B19A2E5F183A36640033C3EE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B19A2E32183A36640033C3EE = {
+			isa = PBXGroup;
+			children = (
+				B19A2E44183A36640033C3EE /* iOS7ConnectionLibrary */,
+				B19A2E63183A36640033C3EE /* iOS7ConnectionLibraryTests */,
+				B19A2E3D183A36640033C3EE /* Frameworks */,
+				B19A2E3C183A36640033C3EE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B19A2E3C183A36640033C3EE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B19A2E3B183A36640033C3EE /* iOS7ConnectionLibrary.app */,
+				B19A2E5C183A36640033C3EE /* iOS7ConnectionLibraryTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B19A2E3D183A36640033C3EE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B19A2E3E183A36640033C3EE /* Foundation.framework */,
+				B19A2E40183A36640033C3EE /* CoreGraphics.framework */,
+				B19A2E42183A36640033C3EE /* UIKit.framework */,
+				B19A2E5D183A36640033C3EE /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B19A2E44183A36640033C3EE /* iOS7ConnectionLibrary */ = {
+			isa = PBXGroup;
+			children = (
+				B19A2E73183A36990033C3EE /* MainLibrary */,
+				B19A2E4D183A36640033C3EE /* AppDelegate.h */,
+				B19A2E4E183A36640033C3EE /* AppDelegate.m */,
+				B19A2E50183A36640033C3EE /* Main.storyboard */,
+				B19A2E53183A36640033C3EE /* ViewController.h */,
+				B19A2E54183A36640033C3EE /* ViewController.m */,
+				B19A2E56183A36640033C3EE /* Images.xcassets */,
+				B19A2E45183A36640033C3EE /* Supporting Files */,
+			);
+			path = iOS7ConnectionLibrary;
+			sourceTree = "<group>";
+		};
+		B19A2E45183A36640033C3EE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B19A2E46183A36640033C3EE /* iOS7ConnectionLibrary-Info.plist */,
+				B19A2E47183A36640033C3EE /* InfoPlist.strings */,
+				B19A2E4A183A36640033C3EE /* main.m */,
+				B19A2E4C183A36640033C3EE /* iOS7ConnectionLibrary-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B19A2E63183A36640033C3EE /* iOS7ConnectionLibraryTests */ = {
+			isa = PBXGroup;
+			children = (
+				B19A2E69183A36640033C3EE /* iOS7ConnectionLibraryTests.m */,
+				B19A2E64183A36640033C3EE /* Supporting Files */,
+			);
+			path = iOS7ConnectionLibraryTests;
+			sourceTree = "<group>";
+		};
+		B19A2E64183A36640033C3EE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B19A2E65183A36640033C3EE /* iOS7ConnectionLibraryTests-Info.plist */,
+				B19A2E66183A36640033C3EE /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B19A2E73183A36990033C3EE /* MainLibrary */ = {
+			isa = PBXGroup;
+			children = (
+				B19A2E74183A36990033C3EE /* JSON */,
+				B19A2E75183A36990033C3EE /* Private */,
+				B19A2E80183A36990033C3EE /* SHHTTPConnection.h */,
+				B19A2E81183A36990033C3EE /* SHHTTPConnection.m */,
+				B19A2E82183A36990033C3EE /* SHHTTPObserverConfigurations.h */,
+			);
+			path = MainLibrary;
+			sourceTree = "<group>";
+		};
+		B19A2E74183A36990033C3EE /* JSON */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = JSON;
+			sourceTree = "<group>";
+		};
+		B19A2E75183A36990033C3EE /* Private */ = {
+			isa = PBXGroup;
+			children = (
+				B19A2E76183A36990033C3EE /* SHHTTPConnectionChainManager.h */,
+				B19A2E77183A36990033C3EE /* SHHTTPConnectionChainManager.m */,
+				B19A2E78183A36990033C3EE /* SHHTTPConnectionChainQueue.h */,
+				B19A2E79183A36990033C3EE /* SHHTTPConnectionChainQueue.m */,
+				B19A2E7A183A36990033C3EE /* SHHTTPConnectionNotificationCenter.h */,
+				B19A2E7B183A36990033C3EE /* SHHTTPConnectionNotificationCenter.m */,
+				B19A2E7C183A36990033C3EE /* SHHTTPConnectionSessionDelegate.h */,
+				B19A2E7D183A36990033C3EE /* SHHTTPConnectionSessionDelegate.m */,
+				B19A2E7E183A36990033C3EE /* SHHTTPConnectionSync.h */,
+				B19A2E7F183A36990033C3EE /* SHHTTPConnectionSync.m */,
+			);
+			path = Private;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B19A2E3A183A36640033C3EE /* iOS7ConnectionLibrary */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B19A2E6D183A36640033C3EE /* Build configuration list for PBXNativeTarget "iOS7ConnectionLibrary" */;
+			buildPhases = (
+				B19A2E37183A36640033C3EE /* Sources */,
+				B19A2E38183A36640033C3EE /* Frameworks */,
+				B19A2E39183A36640033C3EE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iOS7ConnectionLibrary;
+			productName = iOS7ConnectionLibrary;
+			productReference = B19A2E3B183A36640033C3EE /* iOS7ConnectionLibrary.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B19A2E5B183A36640033C3EE /* iOS7ConnectionLibraryTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B19A2E70183A36640033C3EE /* Build configuration list for PBXNativeTarget "iOS7ConnectionLibraryTests" */;
+			buildPhases = (
+				B19A2E58183A36640033C3EE /* Sources */,
+				B19A2E59183A36640033C3EE /* Frameworks */,
+				B19A2E5A183A36640033C3EE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B19A2E62183A36640033C3EE /* PBXTargetDependency */,
+			);
+			name = iOS7ConnectionLibraryTests;
+			productName = iOS7ConnectionLibraryTests;
+			productReference = B19A2E5C183A36640033C3EE /* iOS7ConnectionLibraryTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B19A2E33183A36640033C3EE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = Brick;
+				TargetAttributes = {
+					B19A2E5B183A36640033C3EE = {
+						TestTargetID = B19A2E3A183A36640033C3EE;
+					};
+				};
+			};
+			buildConfigurationList = B19A2E36183A36640033C3EE /* Build configuration list for PBXProject "iOS7ConnectionLibrary" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B19A2E32183A36640033C3EE;
+			productRefGroup = B19A2E3C183A36640033C3EE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B19A2E3A183A36640033C3EE /* iOS7ConnectionLibrary */,
+				B19A2E5B183A36640033C3EE /* iOS7ConnectionLibraryTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B19A2E39183A36640033C3EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B19A2E57183A36640033C3EE /* Images.xcassets in Resources */,
+				B19A2E49183A36640033C3EE /* InfoPlist.strings in Resources */,
+				B19A2E52183A36640033C3EE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B19A2E5A183A36640033C3EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B19A2E68183A36640033C3EE /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B19A2E37183A36640033C3EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B19A2E55183A36640033C3EE /* ViewController.m in Sources */,
+				B19A2E87183A36990033C3EE /* SHHTTPConnectionSync.m in Sources */,
+				B19A2E4F183A36640033C3EE /* AppDelegate.m in Sources */,
+				B19A2E83183A36990033C3EE /* SHHTTPConnectionChainManager.m in Sources */,
+				B19A2E86183A36990033C3EE /* SHHTTPConnectionSessionDelegate.m in Sources */,
+				B19A2E4B183A36640033C3EE /* main.m in Sources */,
+				B19A2E85183A36990033C3EE /* SHHTTPConnectionNotificationCenter.m in Sources */,
+				B19A2E88183A36990033C3EE /* SHHTTPConnection.m in Sources */,
+				B19A2E84183A36990033C3EE /* SHHTTPConnectionChainQueue.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B19A2E58183A36640033C3EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B19A2E6A183A36640033C3EE /* iOS7ConnectionLibraryTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B19A2E62183A36640033C3EE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B19A2E3A183A36640033C3EE /* iOS7ConnectionLibrary */;
+			targetProxy = B19A2E61183A36640033C3EE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B19A2E47183A36640033C3EE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B19A2E48183A36640033C3EE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B19A2E50183A36640033C3EE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B19A2E51183A36640033C3EE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B19A2E66183A36640033C3EE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B19A2E67183A36640033C3EE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B19A2E6B183A36640033C3EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B19A2E6C183A36640033C3EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B19A2E6E183A36640033C3EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iOS7ConnectionLibrary/iOS7ConnectionLibrary-Prefix.pch";
+				INFOPLIST_FILE = "iOS7ConnectionLibrary/iOS7ConnectionLibrary-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B19A2E6F183A36640033C3EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iOS7ConnectionLibrary/iOS7ConnectionLibrary-Prefix.pch";
+				INFOPLIST_FILE = "iOS7ConnectionLibrary/iOS7ConnectionLibrary-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		B19A2E71183A36640033C3EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/iOS7ConnectionLibrary.app/iOS7ConnectionLibrary";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iOS7ConnectionLibrary/iOS7ConnectionLibrary-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "iOS7ConnectionLibraryTests/iOS7ConnectionLibraryTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		B19A2E72183A36640033C3EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/iOS7ConnectionLibrary.app/iOS7ConnectionLibrary";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iOS7ConnectionLibrary/iOS7ConnectionLibrary-Prefix.pch";
+				INFOPLIST_FILE = "iOS7ConnectionLibraryTests/iOS7ConnectionLibraryTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B19A2E36183A36640033C3EE /* Build configuration list for PBXProject "iOS7ConnectionLibrary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B19A2E6B183A36640033C3EE /* Debug */,
+				B19A2E6C183A36640033C3EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B19A2E6D183A36640033C3EE /* Build configuration list for PBXNativeTarget "iOS7ConnectionLibrary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B19A2E6E183A36640033C3EE /* Debug */,
+				B19A2E6F183A36640033C3EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B19A2E70183A36640033C3EE /* Build configuration list for PBXNativeTarget "iOS7ConnectionLibraryTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B19A2E71183A36640033C3EE /* Debug */,
+				B19A2E72183A36640033C3EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B19A2E33183A36640033C3EE /* Project object */;
+}
